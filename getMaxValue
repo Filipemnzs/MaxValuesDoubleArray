@@ -1,0 +1,20 @@
+
+
+
+/*This method finds and returns the largest number
+in a array type double*/
+
+
+
+public static double getMaxValue(double[] arr){
+
+  double maxValue = arr[0];
+  
+  for(int i = 1; i < arr.length; i++){
+    
+    if(arr[0] > maxValue)
+      maxValue = arr[i];
+      
+  }
+  
+  return maxValue;
